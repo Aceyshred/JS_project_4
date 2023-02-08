@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #191C2E;
+}
+#main-header{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Modak', cursive; */
+    text-align: center;
+    background-color: #2B2E43;
+    color: aliceblue;
+}
+.ro{
+    color:lightgrey;
+}
+.bo {
+    color:lightgray;
+}
+.task{
+    color: darkgrey;
+}
+.manager{
+    color: lightgrey;
+}
+a{
+    text-decoration: none;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    margin-top: 3em;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Modak', cursive; */
+}
+th{
+    font-size: 35px;
+    background-color: #2B2E43;
+    padding: 5px;
+    border: 5px solid #191C2E;
+    margin: 5px 20px;
+}
+td{
+    text-align: center;
+    background-color: #575c85;
+    padding: 5px;
+    border: 5px solid #191C2E
+
+}
+.home{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Modak', cursive; */
+    text-align: center;
+    background-color: #2B2E43;
+    color: aliceblue;
+    float: left;
+    margin-top: .7em;
+}
