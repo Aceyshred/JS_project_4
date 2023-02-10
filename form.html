@@ -4,77 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Modak&display=swap" rel="stylesheet">
-    <title>Task Manager</title>
+    <title>Task Form Page</title>
 </head>
 <body>
-    
-    <header id="main-header">
-        <!-- <div class="nav"> -->
-     
-       
-            <!-- <a href="file:///C:/Users/MWThi/OneDrive/Desktop/BootcampJan23/JS_project_4/form.html" class="home">Home</a> -->
-            
-        
-        
-        <!-- <a href="file:///C:/Users/MWThi/OneDrive/Desktop/BootcampJan23/JS_project_4/tasks.html" class="status">Status</a> -->
-          
-
-        <!-- </div> -->
-        <a href="file:///C:/Users/MWThi/OneDrive/Desktop/BootcampJan23/JS_project_4/form.html" class="refresh">
-            
-            <span class="ro">Ro</span><span class="bo">Bo</span> <span class="task">Task</span> <span class="manager">Manager</span>
-        </a>
-        </header>
-    
-
-<div class="container">
-    <div class="task-list">
-        <div class="task-item">
-            Task <br>
-            <input type="text">
-        </div>
-        <div class="task-item">
-            Description <br>
-            <textarea name="" id="" cols="30" rows="6"></textarea>
-        </div>
-        <div class="task-item">
-            Category <br>
-            <input type="text">
-        </div>
-        <div class="task-item">
-            Priority Level <br>
-            
-            <select name="priority" id="priority">
-                <option value="very-high">Very High</option>
-                <option value="high">High</option>
-                <option value="moderate">Moderate</option>
-                <option value="low">Low</option>
-                <option value="very-low">Very Low</option>
-            </select>
-        </div>
-        <div class="task-item">
-            Progress Level <br>
-            <select name="progress" id="progress">
-                <option value="100">100%</option>
-                <option value="80">80%</option>
-                <option value="60">60%</option>
-                <option value="40">40%</option>
-                <option value="20">20%</option>
-                <option value="0">0%</option>
-            </select>
-
-        </div>
-        <div class="task-item">
-            <a href="./tasks.html">
-            <button type="submit" class="submit">Submit</button>
-            </a>
-        </div>
-            
-    </div>
-</div>
+    <form>
+        <label for="title">Title</label> <br>
+        <input type="text" id="title"><br>
+        <label for="description">Description</label><br>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea><br>
+        <label for="category">Category</label><br>
+        <input type="text" id="category"><br>
+        <label for="priority">Priority Level</label><br>
+        <select name="priority" id="priority">
+            <option selected="true" disabled="true" >Select an item</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+            </select><br>
+        <label for="progress">Progress Level</label><br>
+        <select name="progress" id="progress">
+            <option selected="true" disabled="true">Select an item</option>
+            <option value="complete">Complete</option>
+            <option value="pending">Pending</option>
+        </select>
+    </form>
 </body>
 </html>
